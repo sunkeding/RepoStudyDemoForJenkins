@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <remote name="origin" fetch="https://github.com/sunkeding/" />
+    <default revision="master" remote="origin" />
+    <project path="." name="RepoStudyDemo.git" remote="origin" revision="master"/>
+    <project path="util" name="util.git" remote="origin" revision="master"/>
+     <project path="common_ui" name="common_ui.git" remote="origin" revision="master"/>
+</manifest>
