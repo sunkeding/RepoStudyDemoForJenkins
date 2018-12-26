@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-    <remote name="origin" fetch="https://github.com/sunkeding/" />
+<!--     <remote name="origin" fetch="https://github.com/sunkeding/" />
     <default revision="master" remote="origin" />
     <project path="." name="RepoStudyDemo.git" remote="origin" revision="master"/>
     <project path="./modules/util" name="util.git" remote="origin" revision="master"/>
-     <project path="./modules/common_ui" name="common_ui.git" remote="origin" revision="master"/>
+     <project path="./modules/common_ui" name="common_ui.git" remote="origin" revision="master"/> -->
+    
+      <remote name="origin" fetch="https://github.com/sunkeding/" />
+     <remote name="origin2" fetch="git@gitlab.leoao-inc.com:leke-android/" />
+    <default revision="master" remote="origin" />
+    <project path="." name="RepoStudyDemo.git" remote="origin" revision="master"/>
+    <project path="./modules/leoao_share" name="leoao_share.git" remote="origin2" revision="master"/>
 </manifest>
